@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.navbar{
+    display: flex;
+}
+.nav-list{
+    width: 50%;
+    background-color: yellow;
+}
+
+.nav-list li{
+    list-style: name;
+}
+
+.nav-list li a{
+    text-decoration: none;
+
+}
+
+.img-responsive {
+    width: 300px;
+    height: 100px;
+    background-image: url(img/Blum.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Common classes*/
+
+.clear {
+    clear: both;
+}
+
+.common-h5 {
+    color: #3b3663;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottoom: 7px;
+}
+
+.common-h2 {
+    color: #3b3663;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-weight: 1330px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.active {
+    color: #f47514 !important;
+}
+
+h1,
+h2,
+h3,
+h4, {
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+
+/* header*/
+
+.nav-col {
+    float: left;
+    width: 80%
+}
+
+
+cnt-info-col {
+    float: right;
+    text-align: right;
+    width: 25%;
+}
+
+.logo {
+    float: left;
+    width: 40%;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.menu {
+    float: right;
+    width: 50%;
+}
+
+menu a {
+    text-decoration: none;
+    padding: 22px;
+    display: inline-block;
+    color: #4d4d4d;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover {
+    coloe: #f47514;
+}
+
+.cnt-info-col a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
